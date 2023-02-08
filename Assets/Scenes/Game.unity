@@ -352,6 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783e41c59d51b48f2aa310da73e98249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameInstructions: Move the player by using the W,A,S and D keys
 --- !u!4 &43692148
 Transform:
   m_ObjectHideFlags: 0
@@ -1394,6 +1395,11 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 830316567}
+    - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
         type: 3}
       propertyPath: gameManager

@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class GameInstructions : MonoBehaviour
 {
-    string gameInstructions = "Move the player by using the W,A,S and D keys";
+     public string gameInstructions = "Move the player by using the W,A,S and D keys";
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log();
+        Debug.Log(gameInstructions);
     }
 
     // Update is called once per frame
